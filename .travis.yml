@@ -1,11 +1,6 @@
 language: node_js
 
 deploy:
-  provider: pages
-  local-dir: /dist
-  skip-cleanup: true
-  github-token: 2c84220af52012f4c206749b3c68c00e2d950e93
-  keep-history: true
-  on:
-    branch: master
-  fqdn: paneladministracionazul
+  provider: gae
+  keyfile: "f79c6d6555289f51be39bdc577995596cac360c4"
+  project: "principal-arena-219118"

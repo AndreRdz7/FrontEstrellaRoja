@@ -24,6 +24,15 @@
   "dependencies": {
     "lite-server": "^2.4.0",
     "nuxt": "^2.2.0",
-    "vue2-google-maps": "^0.10.2"
+    "vue2-google-maps": "^0.10.2",
+    "vue-loader": "^12.2.1",
+    "vue-meta": "^1.0.4",
+    "vue-router": "^2.5.3",
+    "vue-ssr-html-stream": "^2.2.0",
+    "vue-style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^2.3.0",
+    "@nuxtjs/proxy": "^1.1.1"
   }
 }
