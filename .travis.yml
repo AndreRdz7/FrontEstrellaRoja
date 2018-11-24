@@ -4,3 +4,6 @@ deploy:
   provider: gae
   keyfile: "f79c6d6555289f51be39bdc577995596cac360c4"
   project: "principal-arena-219118"
+  on: production
+  no_promote: true
+  
