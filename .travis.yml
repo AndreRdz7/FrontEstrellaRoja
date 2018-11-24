@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 2c84220af52012f4c206749b3c68c00e2d950e93
+  keep-history: true
+  on:
+    branch: master
+  fqdn: paneladministracionazul
